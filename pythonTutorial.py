@@ -2,14 +2,18 @@
 
 
 
-print("hello world!")
+print("Nice world!")
 
 
 
-print("Nice to meet you")
+print("How are you?")
 
 
 
-print(123)
+print(2019)
+
+
+
+print("Thanks a lot")
 
 
