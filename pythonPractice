@@ -1,0 +1,61 @@
+#!/usr/bin/python
+
+a=1
+a=a+1
+print(a)
+
+a+=1
+print(a)
+
+a = a-1
+a -= 1
+print(a)
+
+a = int(10.7)
+b= int(10.3)
+print(a)
+print(b)
+
+round(10.5)
+
+round(10.7)
+
+temperature = float(input("온도를 입력하세여:"))
+print(temperature)
+
+colors = ['red', 'blue', 'green']
+print(colors[0])
+print(colors[2])
+print(len(colors))
+
+cities = ['서울','부산','인천','대구','대전','광주','울산','수원']
+cities[0:6]
+
+cities[5:]
+
+cities[-30:10]
+
+color1=['red','blue','green']
+color2=['orange','black','white']
+print(color1+color2)
+
+kor = [49, 79, 20, 100, 80]
+math = [43, 59, 85, 30, 90]
+eng = [49, 79, 48, 60, 100]
+mid = [kor,math,eng]
+mid
+
+import copy
+a=[1,[1,2]]
+b=copy.copy(a)
+b[0]=100
+print("1.a=",a,"b=",b)
+
+c=copy.copy(a)
+c[1].append(3)
+print("2.a=",a,"c=",c)
+
+a=[1,[1,[1,2]]]
+b=copy.deepcopy(a)
+b[1][1][0]=3
+print("3.a=",a,"b=",b)
