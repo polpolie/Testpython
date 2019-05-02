@@ -11,7 +11,7 @@ a = a-1
 a -= 1
 print(a)
 
-a = int(10.7)
+a = int(10.9)
 b= int(10.3)
 print(a)
 print(b)
